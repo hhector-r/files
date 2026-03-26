@@ -1,0 +1,43 @@
+/* estils pokedex */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 120px;
+  }
+}
+
+.foc { background-color: orange; padding: 3px 8px; border-radius: 4px; }
+.fantasma { background-color: purple; color: white; padding: 3px 8px; border-radius: 4px; }
+.psiquic { background-color: hotpink; color: white; padding: 3px 8px; border-radius: 4px; }
+.drac { background-color: royalblue; color: white; padding: 3px 8px; border-radius: 4px; }
+.veri { background-color: darkviolet; color: white; padding: 3px 8px; border-radius: 4px; }
+.volador { background-color: skyblue; padding: 3px 8px; border-radius: 4px; }
+.normal { background-color: gray; color: white; padding: 3px 8px; border-radius: 4px; }
+
+.tornar {
+  background-color: red;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* imatges petites per a les evolucions */
+.img-evo {
+  width: 100px;
+}
