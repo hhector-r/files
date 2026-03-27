@@ -15,12 +15,51 @@ img {
   width: 200px;
 }
 
+/* --- Media Queries --- */
+
+@media (max-width: 768px) {
+  img {
+    width: 150px;
+  }
+
+  .evo-bloc img {
+    width: 80px;
+  }
+
+  .evo-bloc {
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 600px) {
   img {
     width: 120px;
   }
+
+  .evo-bloc img {
+    width: 60px;
+  }
+
+  h1 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 9px;
+  }
 }
 
+/* --- Colors de tipus --- */
+
+.blanco { color: white; }
 .foc { background-color: orange; padding: 3px 8px; border-radius: 4px; }
 .fantasma { background-color: purple; color: white; padding: 3px 8px; border-radius: 4px; }
 .psiquic { background-color: hotpink; color: white; padding: 3px 8px; border-radius: 4px; }
@@ -28,6 +67,23 @@ img {
 .veri { background-color: darkviolet; color: white; padding: 3px 8px; border-radius: 4px; }
 .volador { background-color: skyblue; padding: 3px 8px; border-radius: 4px; }
 .normal { background-color: gray; color: white; padding: 3px 8px; border-radius: 4px; }
+.lucha { background-color: brown; color: white; padding: 3px 8px; border-radius: 4px; }
+.acero { background-color: lightsteelblue; color: black; padding: 3px 8px; border-radius: 4px; }
+.siniestro { background-color: black; color: white; padding: 3px 8px; border-radius: 4px; }
+.bicho { background-color: lightgreen; color: black; padding: 3px 8px; border-radius: 4px; }
+.roca { background-color: sienna; color: white; padding: 3px 8px; border-radius: 4px; }
+.tierra { background-color: peru; color: white; padding: 3px 8px; border-radius: 4px; }
+.veneno { background-color: mediumorchid; color: white; padding: 3px 8px; border-radius: 4px; }
+.agua { background-color: deepskyblue; color: white; padding: 3px 8px; border-radius: 4px; }
+.hierba { background-color: lightgreen; color: white; padding: 3px 8px; border-radius: 4px; }
+.hielo { background-color: lightcyan; color: black; padding: 3px 8px; border-radius: 4px; }
+
+/* --- Botó tornar --- */
+
+.tornar-contenidor {
+  text-align: center;
+  margin: 20px 0;
+}
 
 .tornar {
   background-color: red;
@@ -37,12 +93,12 @@ img {
   border-radius: 4px;
 }
 
-/* imatges petites per a les evolucions */
+/* --- Evolucions --- */
+
 .img-evo {
   width: 100px;
 }
 
-/* contenidor de cada evolucio */
 .evo-bloc {
   display: inline-block;
   text-align: center;
@@ -54,4 +110,11 @@ img {
 .evo-bloc img {
   display: block;
   width: 100px;
+}
+
+/* --- Llista principal --- */
+
+.listapokemonul {
+  list-style-type: none;
+  padding: 0;
 }
